@@ -3,14 +3,14 @@
 ### este es el tercer titulo mas grande (puede ir hasta 6 #)
 
 En markdown se puede copiar texto normalmente como este
-**texto en negrilla**
-__otra forma de poner texto en negrilla__
-*texto en cursiva*
-_otra forma de poner texto en cursiva_
 
-una variable phi se representa de esta manera $\phi$
-tambien puedo poner ecuaciones centrales: 
-$$phi=5$$
+**texto en negrilla**
+
+__otra forma de poner texto en negrilla__
+
+*texto en cursiva*
+
+_otra forma de poner texto en cursiva_
 
 para ingresar simbolos sin que cumplan ninguna funcion \*
 
