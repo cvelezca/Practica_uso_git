@@ -11,6 +11,7 @@ diccionario_json=json.loads(variable_json,) #transformar el string variable_json
 
 print(diccionario_json)
 
+#Para traer o cargar a python un archivo json 
 with open('archivo.json','r') as f:  #with = keyword para generar un entorno de ejecucion (scopes o ambitos) dentro 
     animales = json.load(f)          #de mi codigo para ejecutar funciones o acciones que deban ser cerradas justo despues de terminar su
                                      #ejecucion (se usa cuando la ejecucion representa una alta carga computacional)
@@ -21,3 +22,12 @@ with open('archivo.json','r') as f:  #with = keyword para generar un entorno de 
                                      #json.load(f) convierte el archivo json en un objeto de python tipo diccionario
 print(animales)
 print(type(animales))
+
+diccionario={'Carolina':'Velez', 'Terry':'Rojas', 'Juan Jose':'Rojas'}
+print(json.dumps(diccionario)) # el metodo dumps convierte objetos tipo diccionario de python a formato json 
+
+#Para crear archivos en formato json 
+with open('D:/D/DEVNET ASSOCIATE/Practicas Juanjo/diccionario.json','w') as a: # open('ruta_archivonuevo','w') funcion  
+                                     #para crear un archivo .json. el argumento 'w' indica que se escribira sobre el
+                                     # nuevo archivo.
+    json.dump(diccionario,a)         #tomar el diccionario, transformarlo en json y meterlo en un archivo
