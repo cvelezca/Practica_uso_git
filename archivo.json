@@ -1,0 +1,5 @@
+{
+    "animales":["mamiferos","marsupiales","oviparos"],
+    "cuadrupedos":true,
+    "habitat":"selva"
+}
