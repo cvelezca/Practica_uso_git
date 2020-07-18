@@ -1,0 +1,4 @@
+#.gitignore es una carpeta oculta de github que se usa para indicar los elementos a lo que no se les hará track y seran
+#ignorados por github para que no se guarden al hacer commit
+lib_json_login
+#*.json --> indica que va a ignorar cualquier cosa (representada por *) que tenga extension .json
